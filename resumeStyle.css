@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #ecf0f1;
+}
+#head {
+  width: 100%;
+  height: 20%;
+  background-color: #c8d6e5;
+  display: flex;
+}
+#head-con {
+  width: 70%;
+}
+#head-con h2 {
+  color: rgb(22, 22, 85);
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 40px;
+}
+#head-con p {
+  font-size: 1.2rem;
+  margin-left: 40px;
+  color: #100811;
+  line-height: 1.8rem;
+}
+#profile {
+  width: 30%;
+}
+#profile img {
+  width: 40%;
+  height: 100%;
+  float: right;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+hr {
+  margin-top: 6px;
+  color: rgb(236, 172, 24);
+  font-size: 30px;
+}
+#content {
+  width: 100%;
+  height: max-content;
+  margin-left: 20px;
+}
+#content h2 {
+  font-size: 25px;
+  color: #130f40;
+  font-family: "Times New Roman", Times, serif;
+}
+#content p {
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+  text-indent: 40px;
+  line-height: 1.8rem;
+}
+table {
+  width: 60%;
+  height: 300px;
+  margin-top: 10px;
+  text-indent: 10px;
+}
+table th {
+  color: #03041a;
+  font-size: 24px;
+  text-shadow: 1px 1px rgb(218, 240, 20);
+}
+table td {
+  font-size: 20px;
+  text-align: center;
+}
+#content ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#content ul li {
+  font-size: 22px;
+  line-height: 30px;
+}
+#per-det table {
+  width: 600px;
+  height: 0px;
+}
+#per-det table th {
+  padding: 2px;
+  text-align: left;
+}
+#per-det table td {
+  text-align: left;
+}
+#declaration {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+#declaration p {
+  font-size: 20px;
+  text-indent: 3px;
+  line-height: 20px;
+  float: left;
+}
+#sign p {
+  float: right;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-top: -18px;
+}
